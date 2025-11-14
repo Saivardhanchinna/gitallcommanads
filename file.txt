@@ -1,0 +1,13 @@
+---
+- name: Install tomcat10
+  hosts: all
+  tasks:
+    - name: Install tomcat10
+      apt:
+        name: tomcat10
+        state: present
+        update_cache: yes
+    - name: install tomcat-admin
+      apt:
+        name: tomcat10-admin
+        state: present
