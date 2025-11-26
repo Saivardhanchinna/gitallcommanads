@@ -2,3 +2,5 @@ wel come to dexon company
 hello devops
 git int
 git add
+git commit
+git status
